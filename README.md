@@ -2,13 +2,13 @@
 
 A starter kit for working with Typescript build pipelines.
 
-### Test
+## Test
 
 ```shell
 npm run test
 ```
 
-### TODOs
+## TODOs
 
 - [x] for NodeJS (master)
 - [ ] for Monorepo
