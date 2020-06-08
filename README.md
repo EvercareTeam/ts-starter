@@ -15,4 +15,4 @@ npm run test
 - [ ] for React
 - [ ] for NextJS
 - [ ] for Vercel + NextJS
-- [ ] for Vercel + NodeJS
+- [x] for Vercel + NodeJS
