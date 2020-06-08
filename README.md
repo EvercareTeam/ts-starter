@@ -10,9 +10,9 @@ npm run test
 
 ## TODOs
 
-- [x] for NodeJS (master)
+- [x] for NodeJS (master branch)
 - [ ] for Monorepo
 - [ ] for React
 - [ ] for NextJS
 - [ ] for Vercel + NextJS
-- [x] for Vercel + NodeJS
+- [x] for Vercel + NodeJS (vercel branch)
