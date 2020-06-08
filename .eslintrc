@@ -66,13 +66,13 @@
         "next": ["export", "import"]
       }
     ],
-    "node/no-unsupported-features/es-syntax": ["error", {
-      "ignores": ["modules"]
-    }],
-    "node/no-missing-import": ["error", {
-      "resolvePaths": ["src"],
-      "tryExtensions": [".ts"]
-    }],
+    "node/no-unsupported-features/es-syntax": [
+      "error",
+      {
+        "ignores": ["modules"]
+      }
+    ],
+    "node/no-missing-import": "off",
     "import/prefer-default-export": "off",
     "import/no-extraneous-dependencies": "off",
     "import/no-webpack-loader-syntax": "off",
@@ -93,6 +93,7 @@
         "case": "kebabCase"
       }
     ],
+    "@typescript-eslint/explicit-module-boundary-types": "off",
     "@typescript-eslint/explicit-member-accessibility": [
       "warn",
       {

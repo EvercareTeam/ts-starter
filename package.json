@@ -2,7 +2,7 @@
   "name": "ts-starter",
   "version": "1.0.0",
   "description": "A starter kit for Typescript",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "build": "tsc -p tsconfig.build.json",
     "lint:eslint": "eslint 'src/**/*.ts'",
@@ -28,6 +28,9 @@
     "url": "https://github.com/EvercareTeam/ts-starter/issues"
   },
   "homepage": "https://github.com/EvercareTeam/ts-starter#readme",
+  "dependencies": {
+    "@vercel/node": "1.6.1"
+  },
   "devDependencies": {
     "@commitlint/cli": "8.3.5",
     "@commitlint/config-conventional": "8.3.4",

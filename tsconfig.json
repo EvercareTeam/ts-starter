@@ -23,6 +23,6 @@
     "resolveJsonModule": true,
     "typeRoots": ["types", "node_modules/@types"]
   },
-  "include": ["types", "src/**/*"],
+  "include": ["types", "api", "src"],
   "exclude": ["node_modules"]
 }
