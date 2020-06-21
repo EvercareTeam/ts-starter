@@ -11,7 +11,7 @@ npm run test
 ## TODOs
 
 - [x] for NodeJS (master branch)
-- [ ] for Monorepo
+- [x] for Monorepo + NestJS + Typeorm
 - [ ] for React
 - [ ] for NextJS
 - [ ] for Vercel + NextJS
