@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc -p tsconfig.build.json",
-    "lint:eslint": "eslint 'src/**/*.ts'",
+    "lint:eslint": "eslint './packages/**/*.{ts,tsx}'",
     "lint:fix": "yarn run lint:eslint -- --fix",
     "lint": "yarn run lint:eslint",
     "test": "jest"
