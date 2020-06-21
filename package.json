@@ -47,6 +47,7 @@
     "eslint-plugin-unicorn": "^20.1.0",
     "husky": "4.2.5",
     "jest": "25.2.3",
+    "lerna": "^3.21.0",
     "prettier": "2.0.5",
     "ts-jest": "26.1.0",
     "typescript": "3.9.5"

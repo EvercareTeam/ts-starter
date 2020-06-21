@@ -2,7 +2,7 @@
   "name": "@ts-starter/types",
   "version": "0.0.1",
   "private": true,
-  "author": "Joseph Cheng <joseph@gogotech.hk>",
+  "author": "Joseph Cheng <joseph.cheng@yourevercare.com>",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "engines": {
