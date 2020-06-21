@@ -12,7 +12,6 @@
     "airbnb-base",
     "prettier",
     "prettier/@typescript-eslint",
-    "prettier/react",
     "eslint:recommended",
     "plugin:promise/recommended",
     "plugin:@typescript-eslint/recommended",
