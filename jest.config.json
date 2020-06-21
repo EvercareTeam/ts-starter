@@ -1,6 +1,6 @@
 {
   "roots": [
-    "<rootDir>/src"
+    "<rootDir>/packages"
   ],
   "moduleFileExtensions": [
     "ts",
@@ -10,6 +10,12 @@
   "coverageReporters": [
     "json",
     "lcov"
+  ],
+  "collectCoverageFrom": [
+    "packages/**/src/**/*.ts",
+    "!packages/**/src/**/*.interface.ts",
+    "!packages/**/src/**/*.dto.ts",
+    "!packages/**/src/**/constants.ts"
   ],
   "coverageDirectory": "coverage",
   "testPathIgnorePatterns": [

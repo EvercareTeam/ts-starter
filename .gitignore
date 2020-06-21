@@ -20,3 +20,4 @@ gcp_credentials_key.json
 yarn-error.log
 
 *.sqlite
+tsconfig.tsbuildinfo
