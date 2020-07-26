@@ -2,7 +2,10 @@
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
     "sourceType": "module",
-    "ecmaVersion": 2020
+    "ecmaVersion": 2020,
+    "ecmaFeatures": {
+      "jsx": true
+    }
   },
   "env": {
     "node": true,
@@ -14,6 +17,7 @@
     "prettier/@typescript-eslint",
     "prettier/react",
     "eslint:recommended",
+    "plugin:react/recommended",
     "plugin:promise/recommended",
     "plugin:@typescript-eslint/recommended",
     "plugin:@typescript-eslint/eslint-recommended",
@@ -24,7 +28,10 @@
   "plugins": ["unicorn", "prettier", "@typescript-eslint", "jest", "import", "promise"],
   "root": true,
   "settings": {
-    "import/ignore": ["node_modules"]
+    "import/ignore": ["node_modules"],
+    "react": {
+      "version": "detect"
+    }
   },
   "rules": {
     "no-console": "off",
